@@ -1,18 +1,18 @@
-.flex-container {
+html {
+  background: #f6faff;
+}
+
+.container {
   display: flex;
-  flex-direction: row;
-  background-color: red;
-  padding: 16px;
-  border: blue solid 5px;
-  gap: 20px;
+  flex-wrap: wrap;
 }
 
-.flex-container div {
-  background: peachpuff;
-  border: 4px solid salmon;
-  flex: 1 1 100px;
+.item {
+  background: #f1e9f7;
+  border: 3px solid #a579cc;
+  color: #a579cc;
+  padding: 2rem;
+  font-size: 2rem;
+  text-align: center;
+  flex: 1 1 auto;
 }
-.flex-container .one{
-  flex-basis: 10000000px;
-}
-
